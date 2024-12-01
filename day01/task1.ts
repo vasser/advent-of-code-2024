@@ -5,7 +5,7 @@ type Distances = { left: number[]; right: number[] };
 const arrays: Distances = { left: [], right: [] };
 
 const rl = readline.createInterface({
-  input: fs.createReadStream("day1/input1.txt"),
+  input: fs.createReadStream("day01/input1.txt"),
   output: process.stdout,
   terminal: false,
 });
